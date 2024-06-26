@@ -76,13 +76,15 @@ body{
 }
 .home{
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
+    
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 2rem;
     padding: 0px 10%;
     margin-bottom: 0px;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 .home-text{
     max-width: 37rem;
@@ -181,4 +183,52 @@ body{
     .home-img{
         width: 125%;
     }
+
+
+}
+.package-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.package-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.package-section .home-text {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.package {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: var(--black);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.package-img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.package h2 {
+    font-size: 1.8rem;
+    color: var(--dark);
+    margin-bottom: 0.5rem;
+}
+
+.package p {
+    margin-bottom: 0.5rem;
+    color: var(--white);
 }
